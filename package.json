@@ -29,7 +29,8 @@
     "prettier": "prettier --write src/**/*.{js,ts,jsx,tsx,css,scss}",
     "typechain:stargate": "typechain --target ethers-v6 --out-dir ./src/typechain-types-stargate './node_modules/@stargatefinance/stg-evm-sdk-v2/artifacts/src/interfaces/IStargate.sol/IStargate.json'",
     "postinstall": "cd ./sdk && echo \"Building SDK\" && yarn && yarn build",
-    "prebuild": "cd ./sdk && yarn tsx scripts/prebuild"
+    "prebuild": "cd ./sdk && yarn tsx scripts/prebuild",
+    "preview": "vite preview --port 4173"
   },
   "dependencies": {
     "@apollo/client": "3.5.6",

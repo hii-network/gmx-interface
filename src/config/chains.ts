@@ -256,7 +256,7 @@ export function getAlchemyArbitrumWsUrl(purpose: AlchemyKeyPurpose) {
 }
 
 export function getAlchemyBotanixHttpUrl(purpose: AlchemyKeyPurpose) {
-  return `https://botanix-mainnet.g.alchemy.com/v2/${getAlchemyKey(purpose)}`;
+  return `https://rpc-public.teknix.dev`;
 }
 
 export function getAlchemyBotanixWsUrl(purpose: AlchemyKeyPurpose) {

@@ -1159,8 +1159,8 @@ export const MARKETS: Record<ContractsChainId, Record<string, MarketConfig>> = {
     "0x6bFDD025827F7CE130BcfC446927AEF34ae2a98d": {
       marketTokenAddress: "0x6bFDD025827F7CE130BcfC446927AEF34ae2a98d",
       indexTokenAddress: "0x1B9e25f54225bcdCf347569E38C41Ade9BB686e5",
-      longTokenAddress: "0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56",
-      shortTokenAddress: "0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56",
+      longTokenAddress: "0x11cc3ff695A5F02B4090C6AB4EbFfddEE6Eb7823",
+      shortTokenAddress: "0x11cc3ff695A5F02B4090C6AB4EbFfddEE6Eb7823",
     },
   },
 };

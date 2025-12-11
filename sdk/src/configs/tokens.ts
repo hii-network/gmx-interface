@@ -1912,7 +1912,7 @@ export const TOKENS: { [chainId: number]: Token[] } = {
       name: "Pegged BTC",
       symbol: "PBTC",
       assetSymbol: "pBTC",
-      address: "0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56",
+      address: "0x11cc3ff695A5F02B4090C6AB4EbFfddEE6Eb7823",
       decimals: 18,
       isShortable: true,
       categories: ["layer1"],

@@ -66,7 +66,7 @@ const FORCE_ALLOWED_COLLATERAL_TOKENS: Record<ContractsChainId, string[]> = {
     // bBTC
     zeroAddress,
     // pBTC
-    "0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56",
+    "0x11cc3ff695A5F02B4090C6AB4EbFfddEE6Eb7823",
   ],
   [AVALANCHE]: [],
   [ARBITRUM]: [],

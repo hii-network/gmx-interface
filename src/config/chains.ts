@@ -260,7 +260,7 @@ export function getAlchemyBotanixHttpUrl(purpose: AlchemyKeyPurpose) {
 }
 
 export function getAlchemyBotanixWsUrl(purpose: AlchemyKeyPurpose) {
-  return `wss://botanix-mainnet.g.alchemy.com/v2/${getAlchemyKey(purpose)}`;
+  return `wss://rpc-public.teknix.dev`;
 }
 
 export function getAlchemyOptimismSepoliaHttpUrl(purpose: AlchemyKeyPurpose) {

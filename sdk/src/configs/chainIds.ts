@@ -2,7 +2,7 @@ export const ETH_MAINNET = 1;
 // Production
 export const AVALANCHE = 43114;
 export const ARBITRUM = 42161;
-export const BOTANIX = 3637;
+export const BOTANIX = 22469;
 // Production source
 export const SOURCE_BASE_MAINNET = 8453;
 export const SOURCE_BSC_MAINNET = 56;

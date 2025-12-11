@@ -164,8 +164,8 @@ export const botanix: Chain = defineChain({
   id: BOTANIX,
   name: "Botanix",
   nativeCurrency: {
-    name: "Bitcoin",
-    symbol: "BTC",
+    name: "HII",
+    symbol: "HII",
     decimals: 18,
   },
   rpcUrls: {
@@ -174,19 +174,19 @@ export const botanix: Chain = defineChain({
         // this rpc returns incorrect gas price
         // "https://rpc.botanixlabs.com",
 
-        "https://rpc.ankr.com/botanix_mainnet",
+        "https://rpc-public.teknix.dev",
       ],
     },
   },
   blockExplorers: {
     default: {
-      name: "BotanixScan",
-      url: "https://botanixscan.io",
+      name: "HiiScan",
+      url: "https://explorer-sb.teknix.dev",
     },
   },
   contracts: {
     multicall3: {
-      address: "0x4BaA24f93a657f0c1b4A0Ffc72B91011E35cA46b",
+      address: "0x55BC0209264D108Eb0372E861afBcD9d269a115d",
     },
   },
 });
